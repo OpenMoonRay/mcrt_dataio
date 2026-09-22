@@ -72,8 +72,8 @@ variants = [
     [   # variant 6
         'os-rocky-9',
         'opt_level-optdebug',
-        'refplat-vfx2022.0',
-        'gcc-9.3.x.1'
+        'refplat-vfx2026.0',
+        'gcc-14.2.x'
     ],
 ]
 
@@ -93,7 +93,7 @@ requires = [
 ]
 
 private_build_requires = [
-    'cmake_modules-1.1',
+    'cmake_modules-2.0',
     'cppunit',
 ]
 
